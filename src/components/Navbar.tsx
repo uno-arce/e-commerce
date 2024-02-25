@@ -65,7 +65,7 @@ export default function Navbar() {
             <DropdownMenuTrigger>
               <Button variant="ghost" className="relative h-8 w-8 rounded-full">
                 <Avatar className="bg-[#e11d48] h-8 w-8">
-                  <AvatarImage src="/public/bumblebee.png" alt="@bee" />
+                  <AvatarImage src="/bumblebee.png" alt="@bee" />
                   <AvatarFallback>U</AvatarFallback>
                 </Avatar>
               </Button>
