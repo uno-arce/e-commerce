@@ -1,16 +1,14 @@
 import { useState } from 'react'
 import './App.css'
 import Login from './pages/Login'
+import Navbar from './components/Navbar'
 import { ThemeProvider } from "@/components/theme-provider"
-import { ModeToggle } from './components/mode-toggle'
 
 function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className='grid justify-items-end'>
-        <ModeToggle/>
-      </div>
+      <Navbar/>
       <div className='grid justify-items-center'>
         <Login/>
       </div>

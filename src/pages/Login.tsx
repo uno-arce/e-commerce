@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Login() {
   return (
-    <Card className="w-[350px]">
+    <Card className="w-[350px] mt-12">
       <CardHeader className="grid justify-items-start">
         <CardTitle>Login your account</CardTitle>
         <CardDescription>To proceed, enter your registered account.</CardDescription>
